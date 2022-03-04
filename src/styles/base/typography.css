@@ -1,0 +1,25 @@
+html, input, select{
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: var(--main-TC);
+  font-size: calc(8px + 0.4vmin);
+  line-height: calc(10px + 0.55vmin);
+  letter-spacing: .2vmin;
+  font-weight: 400;
+
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  html, input, select{
+    font-size: calc(4px + 0.3vmin);
+    line-height: calc(5px + 0.5vmin);
+    letter-spacing: .1vmin;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  html, input, select{
+    font-size: calc(7px + 0.5vmin);
+    line-height: calc(9px + 0.8vmin);
+    letter-spacing: .1vmin;
+  }
+}
