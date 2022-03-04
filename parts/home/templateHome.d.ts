@@ -1,0 +1,2 @@
+declare const templateHome = "<div class=\"home-container\">\n  <h1 class=\"home-container__title\">\u041F\u043E\u043C\u043E\u0433\u0438\u0442\u0435 \u0431\u0430\u0431\u0443\u0448\u043A\u0435 <br> \u043D\u0430\u0440\u044F\u0434\u0438\u0442\u044C \u0401\u043B\u043A\u0443</h1>\n  <button class=\"start\" id=\"start\">\u041D\u0430\u0447\u0430\u0442\u044C</button>\n  <button class=\"start\" id=\"start-tree\">\u0412\u0441\u0435 \u0437\u043D\u0430\u044E. \u0421\u0440\u0430\u0437\u0443 \u043A \u0435\u043B\u043A\u0435</button>\n</div>";
+export default templateHome;
